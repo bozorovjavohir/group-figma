@@ -1,14 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<link rel="stylesheet" href="./src/style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite + TS</title>
-	</head>
-	<body>
-		<h1 class="text-4xl font-bold text-red-200 hover:text-red-500">Hello World</h1>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <!-- <h1 class="text-4xl font-bold text-red-200 hover:text-red-500">Hello World</h1> -->
+    <!-- SPECIALISTS -->
+    <div class="container mx-auto p-4 h-[706px] mt-[80px]">
+      <div class="flex flex-col items-center gap-[24px] max-w-[1090px] mx-auto">
+        <h3 class="text-center text-6xl self-stretch font-bold font-[Inter]">
+          Designed for specialists leading healthcare excellence.
+        </h3>
+        <p
+          class="text-center text-[20px] font-normal text-[#181B39] font-[Inter]"
+        >
+          Discover a platform designed for trailblazing specialists. Our
+          resources empower leaders in healthcare innovation and excellence.
+        </p>
+      </div>
+      <div class="max-w-[1200px] mx-auto px-4 py-10">
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6"
+        >
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="./src/images/image (12).png"
+              alt="Doctor"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent text-white p-4"
+            >
+              <h3 class="text-lg font-semibold">Hassan Qureshi</h3>
+              <p class="text-sm opacity-80">Cardiologist</p>
+            </div>
+          </div>
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="./src/images/image (13).png"
+              alt="Doctor"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-pink-500/40 to-transparent text-white p-4"
+            >
+              <h3 class="text-lg font-semibold">Hassan Qureshi</h3>
+              <p class="text-sm opacity-80">Cardiologist</p>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="./src/images/image (14).png"
+              alt="Doctor"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-yellow-400/40 to-transparent text-white p-4"
+            >
+              <h3 class="text-lg font-semibold">Hassan Qureshi</h3>
+              <p class="text-sm opacity-80">Cardiologist</p>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="./src/images/image (15).png"
+              alt="Doctor"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-sky-400/40 to-transparent text-white p-4"
+            >
+              <h3 class="text-lg font-semibold">Hassan Qureshi</h3>
+              <p class="text-sm opacity-80">Cardiologist</p>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="./src/images/image (16).png"
+              alt="Doctor"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-green-400/40 to-transparent text-white p-4"
+            >
+              <h3 class="text-lg font-semibold">Hassan Qureshi</h3>
+              <p class="text-sm opacity-80">Cardiologist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-around">
+        <div class="inline-flex items-center gap-[8px]">
+          <div class="w-[40px] h-[10px] rounded-lg bg-[#5ABEAF]"></div>
+          <div class="w-[10px] h-[10px] rounded-lg bg-[#CFF1EC]"></div>
+          <div class="w-[10px] h-[10px] rounded-lg bg-[#CFF1EC]"></div>
+        </div>
+        <div class="inline-flex items-center gap-[12px]">
+          <button
+            class="flex p-[14px] justify-center items-center rounded-xl border border-[#EFEFEF]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                d="M8.71115 4.64526L3.33337 9.99991L8.71115 15.3555"
+                stroke="#525B5A"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.33337 10H16.6667"
+                stroke="#525B5A"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex p-[18px] justify-center items-center rounded-xl bg-[#64D3C2]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="12"
+              viewBox="0 0 15 12"
+              fill="none"
+            >
+              <path
+                d="M13.46 5.77124L0.959961 5.77124"
+                stroke="#525B5A"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M8.41931 0.750914L13.461 5.77091L8.41931 10.7917"
+                stroke="#525B5A"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- DR. HASSAN -->
+    <div class="container mx-auto p-8 h-[706px] mt-[70px]">
+      <h2
+        class="mx-auto text-center text-6xl self-stretch font-bold font-[Inter] w-[883px]"
+      >
+        What Patients Are Saying About Dr. Hassan
+      </h2>
+      <div class="flex items-center justify-evenly mt-[40px]">
+        <div class="relative w-[370px] h-[350px]">
+          <div
+            class="relative border border-[#EFEFEF] rounded-xl overflow-hidden z-10"
+          >
+            <img
+              src="./src/images/Group 2085664315.png"
+              alt="Doctor"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <div class="flex w-[477px] flex-col items-start gap-[30px]">
+          <div
+            class="flex flex-col items-start gap-[30px] self-stretch w-[477px]"
+          >
+            <img src="./src/images/“.svg" alt="" />
+            <p class="text-xl not-italic font-medium font-[Inter]">
+              Dr. Hassan is truly exceptional. His expertise, kindness, and
+              genuine care for his patients are evident in every interaction. I
+              always feel heard and well taken care of. Highly recommend!
+            </p>
+            <img src="./src/images/“ (1).svg" alt="" />
+          </div>
+          <div class="flex flex-col items-start gap-[12px]">
+            <div class="flex items-center gap-[12px]">
+              <img src="./src/images/transparent.png" alt="" />
+              <h6
+                class="text-[#181B39] font-[Inter] text-[24px] not-italic font-semibold"
+              >
+                Eleanor Pena
+              </h6>
+            </div>
+            <p
+              class="text-[#525B5A] font-[Inter] text-[20px] font-normal not-italic"
+            >
+              Slack Inc, New York team
+            </p>
+          </div>
+          <div class="flex gap-[12px]">
+            <button
+              class="flex p-[14px] justify-center items-center rounded-xl border border-[#EFEFEF]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M8.71115 4.64526L3.33337 9.99991L8.71115 15.3555"
+                  stroke="#525B5A"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.33337 10H16.6667"
+                  stroke="#525B5A"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex p-[18px] justify-center items-center rounded-xl bg-[#64D3C2]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="12"
+                viewBox="0 0 15 12"
+                fill="none"
+              >
+                <path
+                  d="M13.46 5.77124L0.959961 5.77124"
+                  stroke="#525B5A"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.41931 0.750914L13.461 5.77091L8.41931 10.7917"
+                  stroke="#525B5A"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PRICING -->
+    <div
+      class="container mx-auto h-[1116px] flex flex-col items-center gap-[60px]"
+    >
+      <div class="flex flex-col items-center gap-[24px] pt-[80px]">
+        <h2
+          class="text-[#030527] text-center font-[Inter] text-[60px] font-bold not-italic"
+        >
+          Choose your pricing plan
+        </h2>
+        <p
+          class="text-[#0D1525] text-center font-[Inter] text-[20px] font-normal not-italic w-[577px]"
+        >
+          Browse through our tailored pricing plans and choose the one that best
+          fits your needs.
+        </p>
+        <div class="flex items-center gap-[16px]">
+          <p
+            class="text-[#0D1525] text-center font-[Inter] text-[18px] font-medium not-italic"
+          >
+            Monthly
+          </p>
+          <img src="./src/images/Toggle.png" alt="" />
+          <p
+            class="text-[#0D1525] text-center font-[Inter] text-[18px] font-medium not-italic"
+          >
+            Yearly
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center items-center gap-[40px] self-stretch">
+        <div
+          class="flex-col h-[735px] px-[45px] py-[38px] items-center gap-[10px] rounded-[16px] bg-[#F0FBF9]"
+        >
+          <div class="flex w-[352px] flex-col items-start gap-[8px]">
+            <h4
+              class="text-[#0D1525] font-[Inter] text-[30px] not-italic font-semibold"
+            >
+              Basic Package
+            </h4>
+            <p
+              class="text-[#525B5A] font-[Inter] text-[18px] not-italic font-normal"
+            >
+              Vital Tools for Streamlined Healthcare Management
+            </p>
+          </div>
+          <div class="flex items-baseline mt-[53px]">
+            <span
+              class="text-[#5ABEAF] font-[Inter] text-[48px] not-italic font-semibold"
+              >$25</span
+            >
+            <span class="text-gray-500 ml-1">/month</span>
+          </div>
+          <hr class="mt-[33px] mb-[33px]" />
+          <div class="flex flex-col items-start gap-[28px] w-[398px]">
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#525B5A] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Essential Healthcare management
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#525B5A] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Simplicity and affordability
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#525B5A] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Comprehensive Health Managment
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#525B5A] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Cost-Effective Solution
+              </p>
+            </div>
+          </div>
+          <div class="mt-[61px]">
+            <button
+              class="w-[448px] flex justify-center items-center gap-[4px] px-[12px] py-[17px] self-stretch rounded-[32px] border border-[#EFEFEF] bg-white"
+            >
+              <span
+                class="text-[#0D1525] text-center font-[Inter] text-[16px] not-italic font-medium"
+                >Choose Your Plan</span
+              >
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex-col h-[735px] px-[45px] py-[38px] items-center gap-[10px] rounded-[16px] bg-[#1C404C]"
+        >
+          <div class="flex w-[352px] flex-col items-start gap-[8px]">
+            <h4
+              class="text-[#FFF] font-[Inter] text-[30px] not-italic font-semibold"
+            >
+              Pro Package
+            </h4>
+            <p
+              class="text-[#FFF] font-[Inter] text-[18px] not-italic font-normal"
+            >
+              Cutting-Edge Tools for Effortless Healthcare Management
+            </p>
+          </div>
+          <div class="flex items-baseline mt-[53px]">
+            <span
+              class="text-[#5ABEAF] font-[Inter] text-[48px] not-italic font-semibold"
+              >$99</span
+            >
+            <span class="text-[#FFF] ml-1">/month</span>
+          </div>
+          <hr class="mt-[33px] mb-[33px]" />
+          <div class="flex flex-col items-start gap-[28px] w-[398px]">
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#FFF] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Essential Healthcare management
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#FFF] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Simplicity and affordability
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#FFF] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Comprehensive Health Managment
+              </p>
+            </div>
+            <div class="flex items-center gap-[16px] self-stretch">
+              <img src="./src/images/Filed.svg" alt="" />
+              <p
+                class="text-[#FFF] font-[Inter] text-[20px] not-italic font-normal"
+              >
+                Cost-Effective Solution
+              </p>
+            </div>
+          </div>
+          <div class="mt-[61px]">
+            <button
+              class="w-[448px] flex justify-center items-center gap-[4px] px-[12px] py-[17px] self-stretch rounded-[32px] border border-[#F2F5F7] bg-[#5ABEAF]"
+            >
+              <span
+                class="text-[#FFF] text-center font-[Inter] text-[16px] not-italic font-medium"
+                >Choose Your Plan</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HORIZONS -->
+    <div class="container mx-auto h-[810px] pt-[80px] pb-[80px] ">
+      <div class="flex-col items-center gap-[24px] w-[864px] mx-auto">
+        <h1
+          class="text-[#030527] text-center font-[Inter] text-[60px] not-italic font-bold"
+        >
+          Health Horizons & Insights
+        </h1>
+        <p
+          class="text-[#0D1525] text-center font-[Inter] text-[20px] not-italic font-normal w-[590px] mx-auto"
+        >
+          Explore the latest trends, expert advice, and in-depth analyses on a
+          wide range of health topics.
+        </p>
+      </div>
+      <div class="mt-[40px] flex justify-center items-center gap-[40px]">
+        <div class="flex flex-col items-center gap-[16px]">
+          <img src="./src/images/illustrations.png" alt="" />
+          <div
+            class="flex flex-col items-start gap-[16px] self-stretch w-[384px]"
+          >
+            <div class="flex items-center gap-[6px]">
+              <img src="./src/images/elements.svg" alt="" />
+              <p
+                class="text-[#0D1525] font-[Inter] text-[14px] not-italic font-normal"
+              >
+                Healthcare services
+              </p>
+            </div>
+            <h2
+              class="text-[#181B39] font-[Inter] text-[24px] not-italic font-semibold"
+            >
+              Our Dedication to Enhancing Your Overall Wellness
+            </h2>
+            <p
+              class="text-[#7C8483] font-[Inter] text-[14px] not-italic font-normal"
+            >
+              We take immense pride in nurturing your vitality, dedicating
+              ourselves to supporting your health
+            </p>
+            <p
+              class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-normal"
+            >
+              24 august 2024
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-[16px]">
+          <img src="./src/images/illustration.png" alt="" />
+          <div
+            class="flex flex-col items-start gap-[16px] self-stretch w-[384px]"
+          >
+            <div class="flex items-center gap-[6px]">
+              <img src="./src/images/elements.svg" alt="" />
+              <p
+                class="text-[#0D1525] font-[Inter] text-[14px] not-italic font-normal"
+              >
+                Eye care services
+              </p>
+            </div>
+            <h2
+              class="text-[#181B39] font-[Inter] text-[24px] not-italic font-semibold"
+            >
+              Holistic Eye Care: Optimal Solutions for Vision Health
+            </h2>
+            <p
+              class="text-[#7C8483] font-[Inter] text-[14px] not-italic font-normal"
+            >
+              We take immense pride in nurturing your vitality, dedicating
+              ourselves to supporting your health
+            </p>
+            <p
+              class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-normal"
+            >
+              25 august 2024
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-[16px]">
+          <img src="./src/images/illustrations (1).png" alt="" />
+          <div
+            class="flex flex-col items-start gap-[16px] self-stretch w-[384px]"
+          >
+            <div class="flex items-center gap-[6px]">
+              <img src="./src/images/elements.svg" alt="" />
+              <p
+                class="text-[#0D1525] font-[Inter] text-[14px] not-italic font-normal"
+              >
+                Healthcare Championing
+              </p>
+            </div>
+            <h2
+              class="text-[#181B39] font-[Inter] text-[24px] not-italic font-semibold"
+            >
+              Leading the Charge Toward a Healthier, More Vibrant You
+            </h2>
+            <p
+              class="text-[#7C8483] font-[Inter] text-[14px] not-italic font-normal"
+            >
+              We take immense pride in nurturing your vitality, dedicating
+              ourselves to supporting your health
+            </p>
+            <p
+              class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-normal"
+            >
+              24 august 2024
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-[40px]">
+        <button
+          class="inline-flex items-center justify-center gap-[4px] px-[20px] py-[13px] rounded-[30px] border border-[#F2F5F7] bg-[#5ABEAF] text-[#FFF]"
+        >
+          Show More
+        </button>
+      </div>
+    </div>
+    <!-- APPOINTMENT -->
+    <div class="container mx-auto flex h-[550px] pl-[100px] pt-[60px]">
+      <div class="bg-[#64D3C2] h-[430px] w-[1320px] flex justify-center items-center rounded-[20px] gap-[40px]">
+        <div class="inline-flex flex-col items-start gap-[40px]  w-[704px] ml-[40px]">
+          <h1 class="text-[#030527] font-[Inter] text-[60px] not-italic font-bold leading-[62px]">Schedule Your Appointment with us</h1>
+		  <p class="text-[#0D1525] font-[Inter] text-[20px] not-italic font-normal leading-[28px] w-[687px]">We’re here to help! Whether you have inquiries about our services, need assistance, or simply want more information, feel free to reach out.</p>
+		  <button class="flex items-center gap-[4px] px-[16px] py-[13px] rounded-[30px] bg-[#181B39] text-[#FFF]">Get Started</button>
+        </div>
+		<div class="ml-auto">
+			<img src="./src/images/Contents.png" alt="">
+		</div>
+      </div>
+    </div>
+	<!-- FOOTER -->
+	<div class="container mx-auto h-[388px] ">
+		<div class="gap-[160px] flex justify-center">
+			<ul class="flex flex-col items-start gap-[16px] w-[157px]">
+				<li class="text-[#0D1525] font-[Inter] text-[20px] not-italic font-medium leading-[28px]">Solutions</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">Electronic Health</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">Telehealth Services</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">Billing and invoicing</li>
+			</ul>
+			<ul class="flex flex-col items-start gap-[16px] w-[157px]">
+				<li class="text-[#0D1525] font-[Inter] text-[20px] not-italic font-medium leading-[28px]">Company</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">About us</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">Blog</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">Career</li>
+			</ul>
+			<ul class="flex flex-col items-start gap-[16px] w-[157px]">
+				<li class="text-[#0D1525] font-[Inter] text-[20px] not-italic font-medium leading-[28px]">Get In Touch</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">(406) 555-0120</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">hipixem@gmail.com</li>
+				<li class="text-[#525B5A] font-[Inter] text-[16px] not-italic font-medium leading-[22.4px]">3517 W. Gray St. Utica, Pennsylvania 57867</li>
+			</ul>
+			<div class="flex flex-col gap-[16px] items-stretch">
+				<p class="text-[#0D1525] font-[Inter] text-[20px] not-italic font-medium leading-[28px]">Follow Us On</p>
+				<div class="flex gap-[24px]">
+					<img src="./src/images/Social icon.svg" alt="">
+					<img src="./src/images/Social icon (1).svg" alt="">
+					<img src="./src/images/Social icon (2).svg" alt="">
+					<img src="./src/images/Social icon (3).svg" alt="">
+				</div>
+			</div>
+		</div>
+		<hr class="w-[1164px] mx-auto block mt-[40px] mb-[24px]">
+		<div class=" flex items-center justify-center gap-[200px]">
+			<p>© 2024 Omail, Inc. All rights reserved</p>
+			<div class="flex items-center gap-[8px]">
+				<img src="./src/images/Logo (1).png" alt="">
+				<h2 class="text-[#181B39] text-center text-[24px] not-italic font-[325] leading-[33.6px]">Mecare</h2>
+			</div>
+			<div class="flex items-center gap-[39px]">
+				<p class="text-[#525B5A] font-[Instrument Sans] text-[18px] not-italic font-normal leading-[25.2px]">Terms of services</p>
+				<p class="text-[#525B5A] font-[Instrument Sans] text-[18px] not-italic font-normal leading-[25.2px]">Privacy Policy</p>
+			</div>
+		</div>
+	</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

@@ -8,6 +8,7 @@
         "tailwindcss": "^4.1.11",
       },
       "devDependencies": {
+        "rollup": "^4.45.1",
         "typescript": "~5.8.3",
         "vite": "^7.0.4",
       },
